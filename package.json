@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@suites/di.nestjs": "^3.0.0",
+    "@suites/doubles.jest": "^3.0.0",
+    "@suites/unit": "^3.0.0"
+  }
 }

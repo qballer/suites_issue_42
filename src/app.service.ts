@@ -16,6 +16,5 @@ export class Database {
   }
 }
 export class User {
-  public id: number = -1
-  public name: string = ''
+  constructor(public id: number, public name: string) {}
 }

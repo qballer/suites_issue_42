@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "emitDecoratorMetadata":true,
+    "moduleResolution": "NodeNext",
     "experimentalDecorators":true, 
-    "module": "commonjs",                               
+    "module": "NodeNext",                               
     "esModuleInterop": true,                            
     "forceConsistentCasingInFileNames": true,            
     "strict": true,                                      

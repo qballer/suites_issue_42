@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   constructor(private database: Database){}
-  getUsers(): string {
+  getUsers(): User[] {
     return this.database.getUsers();
   }
 }

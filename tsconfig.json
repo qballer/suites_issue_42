@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "emitDecoratorMetadata":true,
+    "outDir": "./dist",
     "moduleResolution": "NodeNext",
     "experimentalDecorators":true, 
     "module": "NodeNext",                               

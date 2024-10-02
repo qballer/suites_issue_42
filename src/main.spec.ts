@@ -1,4 +1,4 @@
-import { TestBed, Mocked } from '@suites/unit';
+import { TestBed } from '@suites/unit';
 import type { Mocked } from '@suites/doubles.jest';
 
 import { Database, AppService, User } from './app.service'; 

@@ -11,8 +11,11 @@ export class AppService {
 
 @Injectable()
 export class Database {
-  getUsers(): string {
-    throw new Error('Method not implemented.');
+  getUsers(): User[] {
+    return []
   }
 }
-export class User {}
+export class User {
+  public id: number = -1
+  public name: string = ''
+}

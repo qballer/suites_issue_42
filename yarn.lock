@@ -661,14 +661,18 @@
     "@suites/types.di" "^3.0.0"
     lodash.isequal "^4.5.0"
 
-"@suites/di.nestjs@file:../suites/packages/di/nestjs":
+"@suites/di.nestjs@^3.0.0":
   version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@suites/di.nestjs/-/di.nestjs-3.0.0.tgz#677f09a319e4e00ca60ecbcc10c76e357035f953"
+  integrity sha512-8vXL9tU7W3V9x4RLJQEEnNrG6ZId86EBFr7vD9ocEHS2hslUistyYua5VljfKnZx1YzQ7QDrX0VO7tNvyqwqTw==
   dependencies:
     "@suites/types.common" "^3.0.0"
     "@suites/types.di" "^3.0.0"
 
-"@suites/doubles.jest@file:../suites/packages/doubles/jest":
+"@suites/doubles.jest@^3.0.0":
   version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@suites/doubles.jest/-/doubles.jest-3.0.0.tgz#99e72ae8b213df4c1385be99ef36d9118a6e10d4"
+  integrity sha512-jcKXCTInFRnjU+ovB2kQt7J7JT7pIuZXnFzp/yogs19QHyj4DtKqTL3gpeV31sWfGYo2TLmck3vQ4VPeTxz1fw==
   dependencies:
     "@suites/core.unit" "^3.0.0"
     "@suites/types.common" "^3.0.0"
@@ -691,8 +695,10 @@
   resolved "https://registry.yarnpkg.com/@suites/types.doubles/-/types.doubles-3.0.0.tgz#c06b5968a373aa93138c22a0bcbb8fe9e1a1e444"
   integrity sha512-B5sHH98qU7Fq+ozA42J3LLv846xRJn2ndx1xfLr0oaKxEG6Xud/vmdJpH65F/2P7DNMJkxWo/VDIqXrN4UDcvg==
 
-"@suites/unit@file:../suites/packages/unit":
+"@suites/unit@^3.0.0":
   version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@suites/unit/-/unit-3.0.0.tgz#d91d06b44af58147c94d039bfdf880e0aec6fc64"
+  integrity sha512-Nuz3Oq9rI+IaIZ4Rq6ZNrwadTh4OMtIJa80R9afj5+RtVgfWjrhgjSPXTLWhmBa87VUKac513w0wQ+Qnjj51xg==
   dependencies:
     "@suites/core.unit" "^3.0.0"
     "@suites/types.common" "^3.0.0"
@@ -1288,6 +1294,11 @@ expect@^29.0.0, expect@^29.7.0:
     jest-message-util "^29.7.0"
     jest-util "^29.7.0"
 
+faker-js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/faker-js/-/faker-js-1.0.0.tgz#c859451fac4abfc6cb818afae924783010bf8841"
+  integrity sha512-kaToadbN63LWhHjl69pqG+YHlxAK0aZAPhQDUpVP7v7+RG//ZpK0OzXjCwaAQq98awOii0WSHxtJmIz0X7/UqQ==
+
 fast-content-type-parse@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fast-content-type-parse/-/fast-content-type-parse-1.1.0.tgz#4087162bf5af3294d4726ff29b334f72e3a1092c"
@@ -1454,6 +1465,11 @@ get-package-type@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/get-package-type/-/get-package-type-0.1.0.tgz#8de2d803cff44df3bc6c456e6668b36c3926e11a"
   integrity sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==
+
+get-port@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/get-port/-/get-port-7.1.0.tgz#d5a500ebfc7aa705294ec2b83cc38c5d0e364fec"
+  integrity sha512-QB9NKEeDg3xxVwCCwJQ9+xycaz6pBB6iQ76wiWMl1927n0Kir6alPiP+yuiICLLU4jpMe08dXfpebuQppFA2zw==
 
 get-stream@^6.0.0:
   version "6.0.1"

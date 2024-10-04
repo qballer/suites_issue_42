@@ -1,17 +1,17 @@
-import { TestBed } from "@suites/unit";
-import type { JestMocked } from "@suites/doubles.jest";
+import { TestBed, Mocked } from "@suites/unit";
+// import type { Mocked } from "@suites/doubles.jest";
 
 import { Database, AppService, User } from "./app.service";
 
 describe("User Service Unit Spec", () => {
   let appService: AppService;
-  let database: JestMocked<Database>;
+  let database: Mocked<Database>;
 
   beforeAll(async () => {
     const { unit, unitRef } = await TestBed.solitary(AppService).compile();
 
     appService = unit;
-    database = unitRef.get(Database) as any as JestMocked<Database> ;  
+    database = unitRef.get(Database) as any as Mocked<Database> ;  
   });
 
   // ✅ Test test test

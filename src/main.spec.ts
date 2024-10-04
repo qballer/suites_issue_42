@@ -14,7 +14,6 @@ describe("User Service Unit Spec", () => {
     database = unitRef.get(Database) as any as Mocked<Database> ;  
   });
 
-  // ✅ Test test test
   test("should return users from the database", async () => {
     const mockUsers: User[] = [new User(1, "John"), new User(2, "Jane")];
     database.getUsers.mockResolvedValue(mockUsers);
